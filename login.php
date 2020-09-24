@@ -30,6 +30,7 @@
                 
                 $_SESSION['username'] = $username_db;
                 $_SESSION['id'] = $id_db;
+                $_SESSION['loggedin'] = true;
                 
                 header('Location: welcome.php');
             }
