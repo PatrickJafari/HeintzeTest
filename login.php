@@ -1,7 +1,15 @@
 <?php
+    include("dbconnet.php");
     $username = $_GET['username'];
     $password = $_GET['password'];
     
-    echo $username;
-    echo $password;
+    if(!empty($_POST["submit"])){
+        
+        $sql = "SELECT * FROM userverwaltung WHERE
+                Username ='$username' AND
+                Passwort ='$password'
+        "
+
+    }
+    
 ?>
