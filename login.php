@@ -34,6 +34,8 @@
                 
                 header('Location: welcome.php');
             }
+        } else {
+            header('Location: index.php');
         }
         
 
