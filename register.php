@@ -1,6 +1,7 @@
 <?php
     include("include/dbconnect.php");
 
+   
     if(empty($_POST["submit"])){
         // Saving User
         $username = $_GET["username"];
@@ -21,6 +22,5 @@
             header('Location: welcome.php');
         }
     }
-
     
 ?>
