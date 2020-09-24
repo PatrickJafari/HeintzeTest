@@ -34,7 +34,7 @@
             <label for="username">Username:</label><br>
             <input type="text" id="username" name="username" value=""><br>
             <label for="password">Password:</label><br>
-            <input type="text" id="password" name="password" value=""><br><br>
+            <input type="password" id="password" name="password" value=""><br><br>
             <input type="submit" value="Submit">
         </form>
     </div>
@@ -44,7 +44,7 @@
             <label for="username">Username:</label><br>
             <input type="text" id="username" name="username" value=""><br>
             <label for="password">Password:</label><br>
-            <input type="text" id="password" name="password" value=""><br><br>
+            <input type="password" id="password" name="password" value=""><br><br>
             <input type="submit" value="Submit">
         </form>
     </div>

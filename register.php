@@ -1,8 +1,6 @@
 <?php
     include("include/dbconnect.php");
 
-<<<<<<< Updated upstream
-=======
     if(empty($_POST["submit"])){
         // Saving User
         $username = $_GET["username"];
@@ -24,6 +22,5 @@
         }
     }
 
->>>>>>> Stashed changes
     
 ?>
