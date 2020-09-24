@@ -11,12 +11,13 @@
 
             $( "#register" ).click(function() {
                 $("#loginForm").hide();
-                $("#registerForm").show();
+                $("#registerForm").fadeIn(500);
             });
 
             $( "#login" ).click(function() {
-                $("#loginForm").show();
                 $("#registerForm").hide();
+                $("#loginForm").fadeIn(500);
+               
             });
         });
         </script>
@@ -37,7 +38,6 @@
             <input type="submit" value="Submit">
         </form>
     </div>
-<br>
     <div id="registerForm">
         <form action="register.php">
         <h1>Register</h1>
