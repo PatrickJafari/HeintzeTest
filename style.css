@@ -1,0 +1,11 @@
+body {
+    background-color: #fdfdfd;
+    margin: 0 auto;
+}
+
+#loginForm {
+    background-color: #ccc;
+    margin: 10px;
+    width: 180px;
+    
+}
