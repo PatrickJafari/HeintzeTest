@@ -12,11 +12,12 @@
                 Username ='$username' AND
                 Passwort ='$password'
         ";
-        $res = mysql_query($sql, $db);
-        $anzahl = @mysql_num_rows($res);
-
+        $res = mysqli_query($sql, $db);
+        $anzahl = mysqli_num_rows($res);
+        echo "Hallo";
         if($anzahl > 0){
             //Welcome screen loading 
+            echo "Erfolgreich";
         }
 
     }
