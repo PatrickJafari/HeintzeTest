@@ -9,6 +9,7 @@
                 Username ='$username' AND
                 Passwort ='$password'
         "
+        $res = mysql_query($sql, $db)
 
     }
     
