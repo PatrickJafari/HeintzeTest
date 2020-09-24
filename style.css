@@ -1,11 +1,13 @@
 body {
     background-color: #fdfdfd;
-    margin: 0 auto;
+    margin-top: 50px;
+    font-size: 20px;
 }
 
 #loginForm {
     background-color: #ccc;
-    margin: 10px;
+    margin: 0 auto;
+    padding: 20px;
     width: 180px;
     
 }
